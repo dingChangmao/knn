@@ -62,8 +62,8 @@ def copyPyc(source,target):
 if __name__ == "__main__":
 
     abspath = os.path.abspath(__file__)
-    source = str(abspath.split('/auto-pyc.py')[0]) + '/dataexa-dl-v5'
-    target = str(abspath.split('/auto-pyc.py')[0]) + '/dataexa-dl-v5-pyc'
+    source = str(abspath.split('/auto-pyc.py')[0]) + '/knn'
+    target = str(abspath.split('/auto-pyc.py')[0]) + '/knn-pyc'
 
     delFiles(source)    # 删除掉所有 __pycache__
 
